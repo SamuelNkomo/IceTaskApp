@@ -27,19 +27,7 @@ namespace IceTaskApp
 
         private void textName_TextChanged(object sender, TextChangedEventArgs e)
         {
-            lstDisplay.Items.Add(txtName.Text);
-            txtName.Focus();
-            txtName.SelectAll();
-            txtName.Clear();
-
-        }
-
-        private void txtEmail_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            lstDisplay.Items.Add(txtEmail.Text);
-            txtEmail.Focus();
-            txtEmail.SelectAll();
-            txtEmail.Clear();
+            
         }
     }
 }
