@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IceTaskApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"  Loaded="Window_Loaded">
     <Grid>
         <TextBlock x:Name="Name" HorizontalAlignment="Left" Margin="294,53,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
         <TextBox x:Name="txtName" HorizontalAlignment="Center" Margin="0,71,0,0" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Top" Width="212" Height="43" TextChanged="textBox_TextChanged"/>
         <TextBlock x:Name="Email" HorizontalAlignment="Left" Margin="294,140,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
         <TextBox x:Name="txtEmail" HorizontalAlignment="Center" Margin="0,161,0,0" TextWrapping="Wrap" FontSize="25" VerticalAlignment="Top" Width="212" Height="56" TextChanged="txtEmail_TextChanged"/>
-        
+ 
         <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="294,275,0,0" VerticalAlignment="Top" Width="216" Height="49"/>
         <TextBlock x:Name="Password" HorizontalAlignment="Left" Margin="294,254,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
 
