@@ -7,14 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"></ColumnDefinition>
-            <ColumnDefinition Width="200"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="225"></RowDefinition>
-            <RowDefinition Height="225"></RowDefinition>
-            
-        </Grid.RowDefinitions>
+        <PasswordBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="294,275,0,0" VerticalAlignment="Top" Width="216" Height="49"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Center" Margin="0,71,0,0" TextWrapping="Wrap" Text="Name" FontSize="25" VerticalAlignment="Top" Width="212" Height="43" TextChanged="textBox_TextChanged"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Center" Margin="0,161,0,0" TextWrapping="Wrap" Text="Email" FontSize="25" VerticalAlignment="Top" Width="212" Height="56" TextChanged="txtEmail_TextChanged"/>
+
     </Grid>
 </Window>
